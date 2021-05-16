@@ -1,8 +1,8 @@
-# Make Multiple MongoDB Queries/API Requests in a Request Handler
+# Make Multiple MongoDB Queries in a Request Handler
 
 ![Project Image](/img/laptop.jpg)
 
-After making a GET, POST, PUT, or DELETE request to our server --sometimes, we need our request handler to make MongoDB queries to different collections. 
+After making a GET, POST, PUT, or DELETE request to our server --sometimes, we need our request handler to make MongoDB queries(or API requests) to different collections. 
 
 ## Why may we need to query multiple collections?
 
