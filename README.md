@@ -19,9 +19,9 @@ We can nest callbacks to make multiple MongoDB queries.
 
 In the following get request handler, we make 3 independent MongoDB queries by nesting callbacks. The callbacks run synchronously. 
 
-First, Query #1 Runs 
-Next, Query #2 Runs
-Then, Query #3 Runs
+First, Query #1 Runs.
+Next, Query #2 Runs.
+Then, Query #3 Runs.
 ```
 app.get('/addTimeSlots', isLoggedIn, function (req, res) {
 
@@ -101,7 +101,7 @@ app.get('/addTimeSlots', function (req, res) {
 
 In the above example, we can see that after Promise.all() resolves, we return an array containing the results of our 3 promises. After we receive the results, we can work with them.
 
-In this example,  we used array deconstructing to make our code cleaner to work with. 
+In this example, we used array deconstructing to make our code cleaner to work with. 
 
 ## Way #3: Async...await
 
