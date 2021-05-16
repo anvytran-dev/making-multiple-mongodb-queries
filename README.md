@@ -142,10 +142,10 @@ With this method, we can handle the queries asynchronously through using promise
 Three ways that we can make multiple MongoDB queries in the same request handler are 1) nesting callbacks, 2) utilizing Promise.all(), and utilizing the async...await. While all ways return the data we need, using async...await is a cleaner and more efficient alternative to nesting callbacks or using Promise.all(). It allows us to keep track of our code easily while running asynchronously. 
 
 ## Resources
-Callback Hell
+Callback Hell: https://www.geeksforgeeks.org/what-is-callback-hell-in-node-js/
 
-Promise.all()
+Promise.all(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
 
-Array Deconstruction 
+Array Deconstruction: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
 
-Async/Await
+Async/Await: https://javascript.info/async-await
