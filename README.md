@@ -132,7 +132,7 @@ app.get('/addTimeSlots', async function (req, res) {
  signUpDetails: signUpResults, 
  timeSlotDetails: timeSlotResults, 
  guestSignUpDetails: guestSignUpResults 
-        })
+  })
 })
 ```
 With this method, we can handle the queries asynchronously through using promises while having better readability. 
