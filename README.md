@@ -1,4 +1,4 @@
-# Make Multiple MongoDB Queries in a Request Handler
+# Make Multiple MongoDB Queries/API Requests in a Request Handler
 
 ![Project Image](/img/laptop.jpg)
 
